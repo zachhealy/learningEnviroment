@@ -1,16 +1,22 @@
-html, body {
+html, body, title {
     font-family: sans-serif;
     margin: 0;
     width: 100%;
     height: 100%;
+    text-align: center;
+  }  
+
+  title{
+       
+
   }
-  
+
   h1 {
     font-size: 48px;
   }
   
   p {
-    max-width: 65%;
+    max-width: 100%;
     min-width: 500px;
     text-align: center;
     background: teal;
