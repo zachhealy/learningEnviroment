@@ -1,10 +1,54 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
 html, body {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    width: 100%;
     height: 100%;
+    overflow-x: hidden;
+    
+
+  }
+
+  body{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "main" "footer";
+    grid-template-rows: 1fr 80px;
+
+  }
+
+  main{
+    grid-area: main;
+
+  }
+  
+  footer{
+    position: relative;
+    bottom: 10px;
+    height: 120px;
+    width: 100%;
+    grid-area: footer;
+    border-color: #c25454;
+    border-radius: 5px;
+    background-color: #c25454;
+
+  }
+  footer p{
     text-align: center;
-  }  
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+  }
+  footer a{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 0px;
+
+  }
+  
   
   title{
     padding: 10px;
@@ -13,24 +57,27 @@ html, body {
 
   h1 {
     font-size: 48px;
-    color: teal;
     top: 8px;
     left: 16px;
+    color: #c25454;
+    margin-bottom: 0px;
     
   }
 
   h2 {
-    font-size: 12px;
-    color: black;
+    font-size: 24px;
+    color: #c25454;
+    top: 8px;
+    left: 16px;
+    margin-top: 0px;
     
   }
 
   img {
     max-width: 800px;
-    height: auto;
-    margin-left: 0;
+    height: 100px;
+    margin-left: auto;
     margin-right: auto;
-    filter: grayscale(90%);
 
   }
   
@@ -38,20 +85,23 @@ html, body {
     max-width: 100%;
     min-width: 500px;
     text-align: center;
-    background: teal;
     padding: 10px;
     color: white;
   }
-  
-  h2 {
-    text-align: center;
-    font-size: 2.6rem;
-  }
+  p a{
+    color:white;
 
-  a{
-    color: teal;
+  }
+  p img{
+    height: 50px;
+
+  }
+  
+  
+
+  a {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
 
   }
 
@@ -85,19 +135,50 @@ html, body {
   .nav h1 {
     padding-left: 20px;
   }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+  }
   
   .bg {
-    background: url(leg.JPG);
+    background: url(tempBack.png);
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: 50%;
+    background-position: center;
+    background-size: 100%;
     padding: 100px;
+    background-color: teal;
 
   }
+
+  .logo {
+    display: inline-flex;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    position: relative;
+
+  }
+
+  .logo img{
+    width: 150px;
+    height: 150px;
+
+  }
+
   @keyframes dvd{
-    0% {}
-
+    0%   {filter: invert(17%) sepia(98%) saturate(7485%) hue-rotate(346deg) brightness(101%) contrast(107%); left: 300px; top: -50px;}
+    18%  {filter: invert(31%) sepia(75%) saturate(2720%) hue-rotate(4deg) brightness(105%) contrast(105%);left: 1250px; top: 10px;}
+    30%  {filter: invert(98%) sepia(49%) saturate(5275%) hue-rotate(14deg) brightness(119%) contrast(107%);left: 800px; top:400px;}
+    45%  {filter: invert(29%) sepia(88%) saturate(1646%) hue-rotate(76deg) brightness(101%) contrast(99%);left: 300px; top:300px;}
+    55%  {filter: invert(19%) sepia(70%) saturate(4398%) hue-rotate(176deg) brightness(94%) contrast(99%);left: 600px; top:-50px;}
+    70%  {filter: invert(74%) sepia(18%) saturate(895%) hue-rotate(209deg) brightness(94%) contrast(77%);left: 1000px; top:400px;}
+    80%  {filter: invert(10%) sepia(86%) saturate(5110%) hue-rotate(276deg) brightness(74%) contrast(112%);left: 1250px; top:200px;}
+    100% {filter: invert(37%) sepia(55%) saturate(5651%) hue-rotate(292deg) brightness(83%) contrast(85%);left: 300px; top:-50px;}
+    
   }
-  
   
   
