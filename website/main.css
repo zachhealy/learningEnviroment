@@ -31,9 +31,9 @@ html, body {
     height: 120px;
     width: 100%;
     grid-area: footer;
-    border-color: #c25454;
+    border-color: #d14b50;
     border-radius: 5px;
-    background-color: #c25454;
+    background-color: #d14b50;
 
   }
   footer p{
@@ -59,14 +59,14 @@ html, body {
     font-size: 48px;
     top: 8px;
     left: 16px;
-    color: #c25454;
+    color: #d14b50;
     margin-bottom: 0px;
     
   }
 
   h2 {
     font-size: 24px;
-    color: #c25454;
+    color: #d14b50;
     top: 8px;
     left: 16px;
     margin-top: 0px;
@@ -145,12 +145,12 @@ html, body {
   }
   
   .bg {
-    background: url(tempBack.png);
+    background: url(back.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 80%;
     padding: 100px;
-    background-color: teal;
+    background-color: white;
 
   }
 
