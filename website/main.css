@@ -2,9 +2,9 @@
  
  body{
     font-family: 'Montserrat', sans-serif;
-    display: block;
-    bottom: center;
-    right: center;
+    position: fixed;
+    text-align: center;
+
   }
 
   
