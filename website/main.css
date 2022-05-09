@@ -4,11 +4,40 @@
     font-family: 'Montserrat', sans-serif;
     position: static;
     text-align: center;
-    background: url(bg.png) no-repeat;
+    background-color: #055656;
+    color: #4fffca;
 
   }
 
-  
+  button{
+    background-color: #055656;
+    color: #4fffca;
+    border: solid 5px #4fffca;
+    border-radius: 10px;
+    radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    transition: all ease-in-out 500ms;
+
+  }
+  button:hover{
+    color: #055656; 
+    padding: 10px;
+    background-color: #4fffca;
+    transition: all ease-in-out 500ms;
+
+  }
+  button a{
+    color: #4fffca;
+    text-decoration: none;
+
+  }
+  button a:hover{
+    color: white;
+    text-decoration: none;
+
+  }
+
   footer{
     font-family: 'Montserrat', sans-serif;
     position: fixed;
@@ -21,7 +50,7 @@
   }
 
   i{
-    color: white;
+    color: #055656;
     text-decoration: none;
     font-size: 40px;
     transition: all ease-in-out 500ms;
@@ -33,7 +62,7 @@
 
   }
   li i:hover{
-    color: #3ec59d;
+    color: #097f7f;
 
   }
 
