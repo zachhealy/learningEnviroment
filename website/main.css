@@ -6,6 +6,10 @@
     text-align: center;
     background-color: #055656;
     color: #4fffca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 
   }
 
@@ -46,6 +50,7 @@
 	  color: black;
 	  bottom: 0px;
 	  width: 100%;
+
 
   }
 
