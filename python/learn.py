@@ -1,10 +1,7 @@
 import matplotlib.pyplot as plt
-import numpy
+import seaborn as sns
 
-numpy.random.seed(2)
-
-x = numpy.random.normal(3, 1, 100)
-y = numpy.random.normal(150, 40, 100) / x
-
-plt.scatter(x, y)
+penguins = sns.load_dataset("penguins")
+sns.catplot(data=penguins)
 plt.show()
+
