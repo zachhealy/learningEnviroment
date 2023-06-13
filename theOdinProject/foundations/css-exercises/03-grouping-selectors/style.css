@@ -1,0 +1,14 @@
+.bBut,
+.wBut{
+    font-size: 28px;
+    font-family: Helevetica, 'Times New Roman', sans-serif;
+}
+
+.bBut{
+    background-color: black;
+    color: white;
+}
+
+.wBut{
+    background-color: yellow;
+}
