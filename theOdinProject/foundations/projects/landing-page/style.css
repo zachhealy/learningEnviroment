@@ -2,7 +2,8 @@ body{
     display: flex;
 }
 
-header{
+header, footer{
+    background-color: #1F2937;
     display: flex;
 }
 
@@ -10,10 +11,24 @@ main{
     display: flex;
 }
 
+h1{
+    font-size: 224px;
+    color: #f9faf8;
+}
 
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
 
+ul{
+    font-size: 18px;
+    color: #e5e7eb;
+}
 
 .face{
+    background-color: #1F2937;
 
 }
 
@@ -22,5 +37,9 @@ main{
 }
 
 .boxes{
-    
+
+}
+
+.signup1{
+    color: #3882f6;
 }
