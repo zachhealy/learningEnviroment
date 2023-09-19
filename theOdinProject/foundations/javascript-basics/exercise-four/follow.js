@@ -60,8 +60,12 @@ const birthYear = 1948;
 const thisYear = 1965;
 const firstName = 'Carlos';
 const lastName = 'Stevenson';
+const fullName = `${firstName} ${lastName}`;
+const age = thisYear - birthYear;
 
-let greeting = "Hello! my name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
+//let greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
+let greeting = `Hello! My name is ${fullName} and I am ${age} years old.`;
+
 
 console.log(greeting);
 
@@ -97,7 +101,7 @@ console.log(greeting);
 */
 
 // Test Step 2: 
-
+/*
 module.exports = {
   testGroup: "a",
   greeting,
@@ -106,17 +110,18 @@ module.exports = {
   firstName,
   lastName
 }
+*/
 
 
 // Test Step 3: (Don't forget to comment out lines under Test Step 2)
 
-// module.exports = {
-// 	testGroup: "b",
-// 	greeting,
-// 	birthYear,
-// 	thisYear,
-// 	firstName,
-// 	lastName,
-// 	fullName,
-// 	age
-// }
+module.exports = {
+ 	testGroup: "b",
+ 	greeting,
+ 	birthYear,
+ 	thisYear,
+ 	firstName,
+ 	lastName,
+ 	fullName,
+ 	age
+}
