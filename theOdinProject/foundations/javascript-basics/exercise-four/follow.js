@@ -61,7 +61,7 @@ const thisYear = 1965;
 const firstName = 'Carlos';
 const lastName = 'Stevenson';
 
-let greeting = "Hello! my name is " + firstName + " " + lastName + " and I am " + thisYear - birthYear + " years old.";
+let greeting = "Hello! my name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
 
 console.log(greeting);
 
