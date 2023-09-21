@@ -17,6 +17,7 @@ penMode.onclick = () => setMode('pen');
 rainbowMode.onclick = () => setMode('rainbow');
 erase.onclick = () => setMode('erase');
 clearCanvas.onclick = () => setClear();
+gridEle.onclick = () => 
 
 function setMode(newMode){
     mode = newMode;
@@ -35,6 +36,8 @@ function setGrid(size){
         gridSquare.addEventListener('mouseover', changeColor);
         gridSquare.addEventListener('mousedown', changeColor);
         gridSquare.style.backgroundColor = 'white';
+        gridSquare.style.minWidth = '30px';
+        gridSquare.style.minHeight = '30px';
         gridDoc.appendChild(gridSquare);
     }
     
