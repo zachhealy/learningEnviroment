@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel = 'stylesheet' href = 'style.css'>
+</head>
+<body>
+
+    <header class = 'head'>
+        <h1>Etch-A-Sketch</h1>
+    </header>
+
+    <main class = 'main'>
+        <div class = 'buttons'>
+            <input type="color" id="colorpicker" value="#000000">
+            <button id = 'penMode'>Pen Mode</button>
+            <button id = 'rainbowMode'>Rainbow Mode</button>
+            <button id = 'erase'>Eraser</button>
+            <button id = 'clearCanvas'>Clear Canvas</button>
+        </div>
+
+
+        <div id = "grid" class = 'grid'></div>
+
+    </main>
+
+
+    <footer class = 'foot'>
+        <p>
+            Copyright ©
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            Zach Healy
+            <a href = 'https://github.com/zachhealy' target ="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </p>
+    </footer>
+
+    <script src = 'script.js'></script>
+    <script src="https://kit.fontawesome.com/5c1e65ff90.js" crossorigin="anonymous"></script>
+</body>
+</html>
