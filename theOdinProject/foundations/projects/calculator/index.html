@@ -7,60 +7,57 @@
     <link rel = 'stylesheet' href = 'style.css'>
 </head>
 <body>
-    <main>
-        <header>
-            <h1>Calculator</h1>
-        </header>
-
-        <div class = 'main'>
-            <div class = 'display'>
-                <p class = 'currentEquation'>112+232</p>
-                <h1 class = 'answer'>3213</h1>
-            </div>
-
-            <div class = 'buttonDiv'>
-                <div class = 'row'>
-                    <button class = 'seven'>7</button>
-                    <button class = 'eight'>8</button>
-                    <button class = 'nine'>9</button>
-                    <button class = 'divide'>/</button>
+    <div class = 'container'>
+        <div class = 'calculator'>
+            <form>
+                <div class = 'input'>
+                    <input type = 'text' name = 'display'>
                 </div>
-                <div class = 'row'>
-                    <button class = 'four'>4</button>
-                    <button class = 'five'>5</button>
-                    <button class = 'six'>6</button>
-                    <button class = 'multiply'>x</button>
+                <div>
+                    <input type = 'button' value = 'AC'>
+                    <input type = 'button' value = 'DE'>
+                    <input type = 'button' value = '.'>
+                    <input type = 'button' value = '/'>
                 </div>
-                <div class = 'row'>
-                    <button class = 'one'>1</button>
-                    <button class = 'two'>2</button>
-                    <button class = 'three'>3</button>
-                    <button class = 'minus'>-</button>
+                <div>
+                    <input type = 'button' value = '7'>
+                    <input type = 'button' value = '8'>
+                    <input type = 'button' value = '9'>
+                    <input type = 'button' value = '*'>
                 </div>
-                <div class = 'row'>
-                    <button class = 'zero'>0</button>
-                    <button class = 'decimal'>.</button>
-                    <button class = 'equals'>=</button>
-                    <button class = 'add'>+</button>
+                <div>
+                    <input type = 'button' value = '4'>
+                    <input type = 'button' value = '5'>
+                    <input type = 'button' value = '6'>
+                    <input type = 'button' value = '-'>
                 </div>
-            </div>
-
+                <div>
+                    <input type = 'button' value = '1'>
+                    <input type = 'button' value = '2'>
+                    <input type = 'button' value = '3'>
+                    <input type = 'button' value = '+'>
+                </div>
+                <div>
+                    <input type = 'button' value = '0'>
+                    <input type = 'button' value = '='>
+                </div>
+            </form>
         </div>
+    </div>
 
-        <footer>
-            <p>
-            Copyright ©
-                <script>
-                    document.write(new Date().getFullYear())
-                </script>
-                Zach Healy
-                <a href = 'https://github.com/zachhealy' target ="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-            </p>
-        </footer>
-        <script src = 'script.js'></script>
-        <script src="https://kit.fontawesome.com/5c1e65ff90.js" crossorigin="anonymous"></script>
-    </main>
+    <footer>
+        <p>
+        Copyright ©
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            Zach Healy
+            <a href = 'https://github.com/zachhealy' target ="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </p>
+    </footer>
+    <script src = 'script.js'></script>
+    <script src="https://kit.fontawesome.com/5c1e65ff90.js" crossorigin="anonymous"></script>
 </body>
 </html>
