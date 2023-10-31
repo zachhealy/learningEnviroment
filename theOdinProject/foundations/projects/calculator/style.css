@@ -1,14 +1,60 @@
+body {
+  background: #373737;
+}
+
 .container {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   background: #373737;
   display: flex;
   align-items: center;
   justify-content: center;
 
 }
-
   
+  .calculator {
+    background: #464646;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #3c3c3c;
+  }
+
+  .calculator form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0,0,0,.5);
+    background-color: #373737;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .operator {
+
+    color: rgb(172, 255, 234);
+  }
+
+  form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+  }
+
+  form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    box-shadow: none;
+  }
+
+  form input.long{
+    width: 145px;
+  }
+
+
   /* Footer */
   
   footer {
@@ -16,25 +62,18 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    background-color: #e8f1f2;
+    background-color: #373737;
     width: 400px;
     padding-bottom: 20px;
+    color: white;
   }
-  
-  .copyright {
-    color: #028090;
-    font-weight: 600;
-  }
-  
-  .copyright a {
-    color: #114B5F;
+
+  footer a {
+    color: #fff;
     text-decoration: none;
   }
   
-  .copyright a:hover {
+  footer a:hover {
     color: #1d2d44;
-    text-decoration: underline;
-    text-decoration-color: #F45B69;
-    text-decoration-thickness: 2px;
   }
   
